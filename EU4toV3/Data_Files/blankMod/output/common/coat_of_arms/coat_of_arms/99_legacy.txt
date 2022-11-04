@@ -86,6 +86,44 @@ legacy_AAC_republic = {
 		color2 = "yellow"
 	}
 }
+legacy_AAC_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_shield_accolade_02.dds"
+		instance = { scale = { 0.60 0.60 } position = { 0.5 0.5 } } 
+		color1 = "yellow"
+		color2 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_aacheneagle.dds"
+		instance = { scale = { 0.24 0.39 } position = { 0.5 0.5 } } 
+		color1 = "black"
+		color2 = "red"
+		color3 = "white"
+	}
+}
+legacy_AAC_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_shield_accolade_02.dds"
+		instance = { scale = { 0.60 0.60 } position = { 0.75 0.5 } } 
+		color1 = "yellow"
+		color2 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_aacheneagle.dds"
+		instance = { scale = { 0.24 0.39 } position = { 0.75 0.5 } } 
+		color1 = "black"
+		color2 = "red"
+		color3 = "white"
+	}
+}
 legacy_ABB = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -136,9 +174,54 @@ legacy_ABB_republic = {
 		color1 = "white"
 	}
 }
-legacy_ABE = { textured_emblem = { texture = "EU4toVic2/ABE.tga" } }
-legacy_ABE_communist = { textured_emblem = { texture = "EU4toVic2/ABE_communist.tga" } }
-legacy_ABE_fascist = { textured_emblem = { texture = "EU4toVic2/ABE_fascist.tga" } }
+legacy_ABE = {	
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_abenakishield.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+		color1 = "brown"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_abenakisun.dds"
+		instance = { scale = { 0.4 0.55 } position = { 0.5 0.45 } } 
+		color1 = "red"
+		color2 = "white"
+	}
+		colored_emblem = {
+		texture = "ce_abenakiwatertrees.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.47 } } 
+		color1 = "blue"
+		color2 = "white"
+		color3 = "green"
+	}
+}
+legacy_ABE_communist = {	
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_abenakishield.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+		color1 = "brown"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_knife_circle.dds"
+		instance = { scale = { 0.70 0.70 } position = { 0.5 0.5 } } 
+		color1 = "white"
+	}
+}
+legacy_ABE_fascist = {	
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_abenakisun.dds"
+		instance = { scale = { 1 2 } position = { 0.5 1 } } 
+		color1 = "red"
+		color2 = "white"
+	}
+}
 legacy_ABE_monarchy = legacy_ABE
 legacy_ABE_republic = {
 	pattern = "pattern_solid.tga"
@@ -148,6 +231,89 @@ legacy_ABE_republic = {
 		texture = "ce_bend_sinister_fimbriated.dds"
 		color1 = "white"
 		color2 = "brown"
+	}
+}
+legacy_ABE_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_abenakishield.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+		color1 = "brown"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_abenakisun.dds"
+		instance = { scale = { 0.4 0.55 } position = { 0.5 0.5 } } 
+		color1 = "red"
+		color2 = "white"
+	}
+		colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.60 } scale = { 0.045 0.3 } }
+		instance = { position = { 0.5 0.57 } scale = { 0.1125 0.0675 } }		
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.60 } scale = { 0.03 0.2775 } }
+		instance = { position = { 0.5 0.57 } scale = { 0.10125 0.045 } }		
+	}
+}
+legacy_ABE_theocracy_totemist = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	colored_emblem = {
+		texture = "ce_indigenousturtle.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.45 } } 
+		color1 = "green"
+		color2 = "green"
+		color3 = "green"
+	}
+	colored_emblem = {
+		texture = "ce_abenakishield.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.48 } } 
+		color1 = "brown"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_abenakisun.dds"
+		instance = { scale = { 0.3 0.4125 } position = { 0.5 0.43 } } 
+		color1 = "red"
+		color2 = "white"
+	}
+		colored_emblem = {
+		texture = "ce_abenakiwatertrees.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.45 } } 
+		color1 = "blue"
+		color2 = "white"
+		color3 = "green"
+	}
+}
+legacy_ABE_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_abenakishield.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.48 } } 
+		color1 = "brown"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_abenakisun.dds"
+		instance = { scale = { 0.3 0.4125 } position = { 0.75 0.43 } } 
+		color1 = "red"
+		color2 = "white"
+	}
+		colored_emblem = {
+		texture = "ce_abenakiwatertrees.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.45 } } 
+		color1 = "blue"
+		color2 = "white"
+		color3 = "green"
 	}
 }
 legacy_ABI = { textured_emblem = { texture = "EU4toVic2/ABI.tga" } }
