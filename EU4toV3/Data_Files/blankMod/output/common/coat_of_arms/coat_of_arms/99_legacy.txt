@@ -129,7 +129,7 @@ legacy_ABB = {
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "ce_crescent_pale.dds"
+		texture = "ce_shallowcrescent_pale.dds"
 		color1 = "white"
 	}
 }
@@ -138,7 +138,7 @@ legacy_ABB_communist = {
 	color1 = "red"
 
 	colored_emblem = {
-		texture = "ce_crescent_pale.dds"
+		texture = "ce_shallowcrescent_pale.dds"
 		color1 = "yellow"
 	}
 	colored_emblem = {
@@ -152,7 +152,7 @@ legacy_ABB_fascist = {
 	color1 = "black"
 
 	colored_emblem = {
-		texture = "ce_crescent_pale.dds"
+		texture = "ce_shallowcrescent_pale.dds"
 		color1 = "white"
 	}
 }
@@ -161,7 +161,7 @@ legacy_ABB_monarchy = {
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "ce_crescent_pale.dds"
+		texture = "ce_shallowcrescent_pale.dds"
 		color1 = "white"
 	}
 }
@@ -170,8 +170,27 @@ legacy_ABB_republic = {
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "ce_crescent_pale.dds"
+		texture = "ce_shallowcrescent_pale.dds"
 		color1 = "white"
+	}
+}
+legacy_ABB_theocracy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_shallowcrescent_pale.dds"
+		color1 = "white"
+	}
+}
+legacy_ABB_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_shallowcrescent_pale.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.6 } } 
 	}
 }
 legacy_ABE = {	
@@ -763,7 +782,53 @@ legacy_acadia_republic = {
 		instance = { position = { 0.25 0.25 } scale = { 0.3 0.3 } }
 	}
 }
-legacy_ACA_communist = { textured_emblem = { texture = "EU4toVic2/ACA_communist.tga" } }
+legacy_acadia_theocracy_christian = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "blue"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { position = { 0.17 0.17 } scale = { 0.3 0.3 } }
+	}
+	colored_emblem = {
+		texture = "ce_keys_st_peter.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.83 0.17 } scale = { 0.3 0.3 } }
+	}
+}
+legacy_acadia_theocracy_muslim = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "green"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_crescent_star_06.dds"
+		color1 = "yellow"
+		instance = { position = { 0.17 0.17 } scale = { 0.3 0.3 } }
+	}
+}
+legacy_acadia_subject =
+legacy_ACA_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { position = { 0.17 0.17 } scale = { 0.3 0.3 } }
+	}
+	textured_emblem = {
+		texture = "te_france_kaisserreich.dds"
+	}
+}
 legacy_ACA_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -799,6 +864,66 @@ legacy_ACA_fascist = {
 }
 legacy_ACA_monarchy = legacy_ACA
 legacy_ACA_republic = legacy_ACA
+legacy_ACA_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { position = { 0.17 0.17 } scale = { 0.3 0.3 } }
+	}
+	colored_emblem = {
+		texture = "ce_keys_st_peter.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.83 0.17 } scale = { 0.3 0.3 } }
+	}
+}
+legacy_ACA_theocracy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_crescent_star_06.dds"
+		color1 = "yellow"
+		instance = { position = { 0.17 0.17 } scale = { 0.3 0.3 } }
+	}
+}
+legacy_ACA_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_shield_heater_large_barry_05_bottom.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { position = { 0.75 0.5 } scale = { 0.52 0.52 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_heater_large_barry_05_bottom.dds"
+		color1 = "blue"
+		color2 = "white"
+		color3 = "red"
+		instance = { position = { 0.75 0.5 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { position = { 0.67 0.38 } scale = { 0.1 0.1 } }
+	}
+}
 legacy_ACH = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -866,12 +991,50 @@ legacy_ACH_republic = {
 	colored_emblem = {
 		texture = "ce_bend_dexter.dds"
 		color1 = "blue"
-		instance = { scale = { 0.3 0.31 } position = { 0.5 0.47 } }
-		instance = { scale = { 0.3 0.31 } position = { 0.5 0.49 } }
-		instance = { scale = { 0.3 0.31 } position = { 0.5 0.51 } }
+		instance = { scale = { 0.28 0.31 } position = { 0.5 0.47 } }
+		instance = { scale = { 0.28 0.31 } position = { 0.5 0.49 } }
+		instance = { scale = { 0.28 0.31 } position = { 0.5 0.51 } }
 	}
 }
-legacy_ACO = { textured_emblem = { texture = "EU4toVic2/ACO.tga" } }
+legacy_ACH_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+}
+legacy_ACH_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_cross_fourchee.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.6 } } 
+	}
+}
+legacy_ACO = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_sun_xia.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_albuquerquebird.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.25 0.25 } position = { 0.15 0.15 } }
+	}
+}
 legacy_ACO_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -887,9 +1050,54 @@ legacy_ACO_communist = {
 		instance = { scale = { 0.25 0.25 } position = { 0.15 0.15 } }
 	}
 }
-legacy_ACO_fascist = { textured_emblem = { texture = "EU4toVic2/ACO_fascist.tga" } }
+legacy_ACO_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_albuquerquebird.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_sun_xia.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { scale = { 0.25 0.25 } position = { 0.62 0.65 } } 
+	}
+}
 legacy_ACO_monarchy = legacy_ACO
 legacy_ACO_republic = legacy_ACO
+legacy_ACO_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_twocolourcircle.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_albuquerquebird.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.5 } } 
+	}
+}
+legacy_ACO_theocracy_totemist = legacy_ACO
+legacy_ACO_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_albuquerquebird.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.6 } } 
+	}
+}
 legacy_ADA = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
@@ -899,6 +1107,31 @@ legacy_ADA = {
 		texture = "ce_rhombus.dds"
 		color1 = "white"
 		instance = { position = { 0 0.5 } }
+	}
+}
+legacy_ADA_alt = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "red"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.15 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.85 0.5 } } 
 	}
 }
 legacy_ADA_communist = {
@@ -917,7 +1150,14 @@ legacy_ADA_communist = {
 		instance = { scale = { 0.3 0.3 } position = { 0.2 0.5 } }
 	}
 }
-legacy_ADA_fascist = { textured_emblem = { texture = "EU4toVic2/ADA_fascist.tga" } }
+legacy_ADA_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	textured_emblem = {
+		texture = "te_djiboutieblem.dds"
+	}
+}
 legacy_ADA_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
@@ -941,6 +1181,40 @@ legacy_ADA_republic = {
 		texture = "ce_star_05.dds"
 		color1 = "red"
 		instance = { scale = { 0.3 0.3 } position = { 0.2 0.5 } }
+	}
+}
+legacy_ADA_theocracy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "green"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "green"
+		instance = { scale = { 0.5 0.5 } position = { 0.15 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "green"
+		instance = { scale = { 0.5 0.5 } position = { 0.85 0.5 } } 
+	}
+}
+legacy_ADA_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_djiboutieblem.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.6 } } 
 	}
 }
 legacy_ADE = {
@@ -1020,12 +1294,42 @@ legacy_ADE_republic = {
 		instance = { scale = { 0.2 0.2 } }
 	}
 }
+legacy_ADE_theocracy_muslim = legacy_ADE_republic
+legacy_ADE_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_adencolony.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } } 
+	}
+}
 legacy_ADO = {
 	pattern = "pattern_vertical_split_01.tga"
 	color1 = "yellow"
 	color2 = "red"
 }
-legacy_ADO_communist = { textured_emblem = { texture = "EU4toVic2/ADO_communist.tga" } }
+legacy_ADO_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		instance = { scale = { 0.85 0.85 }} 
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		instance = { scale = { 0.8 0.8 }} 
+	}
+	colored_emblem = {
+		texture = "ce_river.dds"
+		color1 = "blue"
+		color2 = "yellow"
+		instance = { scale = { 1 0.8 }} 
+	}
+}
 legacy_ADO_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -1053,6 +1357,31 @@ legacy_ADO_republic = {
 		texture = "ce_tricolor_vertical.dds"
 		color1 = "yellow"
 		color2 = "red"
+	}
+}
+legacy_ADO_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_bishopsymbol.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } } 
+	}
+}
+legacy_ADO_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_andorra_arms.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.6 } } 
 	}
 }
 legacy_ADU = {
@@ -1180,7 +1509,7 @@ legacy_AES = {
 	colored_emblem = {
 		texture = "ce_dragon_wales.dds"
 		color1 = "white"
-		color2 = "feldgrau"
+		color2 = "black"
 	}
 }
 legacy_AES_communist = {
@@ -1200,7 +1529,7 @@ legacy_AES_communist = {
 	colored_emblem = {
 		texture = "ce_dragon_wales.dds"
 		color1 = "white"
-		color2 = "pearl"
+		color2 = "black"
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
 	}
 }
@@ -1216,6 +1545,51 @@ legacy_AES_fascist = {
 }
 legacy_AES_monarchy = legacy_AES
 legacy_AES_republic = legacy_AES
+legacy_AES_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_per_cross.dds"
+		color1 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_dragon_wales.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { scale = { 0.4 0.4 } position = { 0.2 0.2 } } 
+	}
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.75 0.8 } } 
+	}
+}
+legacy_AES_theocracy_norse = {
+	pattern = "pattern_solid.tga"
+	color1 = "grey"
+
+	colored_emblem = {
+		texture = "ce_walknut.dds"
+		color1 = "red_dark"
+	}
+}
+legacy_AES_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_dragon_wales.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.5 } } 
+	}
+}
 legacy_AFA = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -1358,6 +1732,80 @@ legacy_AGC_republic = {
 		instance = { scale = { 0.6 1 } position = { 0.7 0.5 } }
 	}
 }
+AGQ = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "white"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "green"
+	}
+}
+AGQ_communist = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_knife_circle.dds"
+		color1 = "green"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+AGQ_fascist = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "black"
+	color2 = "green_light"
+	colored_emblem = {
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "green_light"
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "green_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+AGQ_monarchy = AGQ
+AGQ_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "blue_light"
+	}
+	colored_emblem = {
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "green"
+		instance = { scale = { 0.25 0.25 } position = { 0.5 0.5 } }
+	}
+}
+AGQ_theocracy_christian = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "white"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "green"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+}
+AGQ_theocracy_totemist = AGQ
+AGQ_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.70 0.6 } }
+	}
+}
 legacy_AGG = { textured_emblem = { texture = "EU4toVic2/AGG.tga" } }
 legacy_AGG_communist = { textured_emblem = { texture = "EU4toVic2/AGG_communist.tga" } }
 legacy_AGG_fascist = { textured_emblem = { texture = "EU4toVic2/AGG_fascist.tga" } }
@@ -1377,6 +1825,114 @@ legacy_AGU_fascist = {
 }
 legacy_AGU_monarchy = { textured_emblem = { texture = "EU4toVic2/AGU_monarchy.tga" } }
 legacy_AGU_republic = legacy_AGU
+AHM = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "blue"
+		color2 = "orange"
+		color3 = "green"
+	}
+}
+AHM_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "orange"
+		color2 = "red"
+		color3 = "green"
+	}
+	colored_emblem = {
+		texture = "ce_hammer_hoe.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.5 0.5 }} 
+	}
+}
+AHM_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "blue"
+		color2 = "black"
+		color3 = "green"
+	}
+	textured_emblem = {
+		texture = "te_azadhind_tiger.dds"
+		instance = { scale = { 0.8 0.8 }} 
+	}
+}
+AHM_monarchy = AHM
+AHM_monarchy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_quran6113.dds"
+		color1 = "grey"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.9 } } 
+		
+	}
+}
+AHM_republic = AHM
+AHM_theocracy_hindu = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "blue"
+		color2 = "orange"
+		color3 = "blue"
+	}
+	colored_emblem = {
+		texture = "ce_omsymbol.dds"
+		color1 = "black"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+}
+AHM_theocracy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_quran6113.dds"
+		color1 = "grey"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.9 } } 
+		
+	}
+}
+AHM_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_stripes_12.dds"
+		color1 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "orange"
+		instance = { scale = { 0.7 0.7 } position = { 0.75 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_elephant_asia_decorated.dds"
+		color1 = "grey"
+		color2 = "blue"
+		color3 = "green"
+		instance = { scale = { 0.4 0.4 } position = { 0.75 0.5 } } 
+	}
+}
 legacy_AIN = { textured_emblem = { texture = "EU4toVic2/AIN.tga" } }
 legacy_AIN_communist = { textured_emblem = { texture = "EU4toVic2/AIN_communist.tga" } }
 legacy_AIN_fascist = {
