@@ -1732,87 +1732,142 @@ legacy_AGC_republic = {
 		instance = { scale = { 0.6 1 } position = { 0.7 0.5 } }
 	}
 }
-AGQ = {
-	pattern = "pattern_border_of_4.dds"
-	color1 = "white"
-	color2 = "green"
+legacy_AGG = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	
 	colored_emblem = {
-		texture = "ce_anishinaabetbird.dds"
-		color1 = "green"
+		texture = "ce_treeline.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.25 0.25 } position = { 0.16 0.27 } } 
 	}
 }
-AGQ_communist = {
-	pattern = "pattern_border_of_4.dds"
+legacy_AGG_communist = {
+	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "green"
+	
+	colored_emblem = {
+		texture = "ce_treeline.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.7 } } 
+	}
 	colored_emblem = {
 		texture = "ce_knife_circle.dds"
-		color1 = "green"
-		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+		color1 = "yellow"
+		instance = { scale = { 0.25 0.25 } position = { 0.15 0.2 } } 
 	}
 }
-AGQ_fascist = {
-	pattern = "pattern_border_of_4.dds"
+legacy_AGG_fascist = {
+	pattern = "pattern_solid.tga"
 	color1 = "black"
-	color2 = "green_light"
+	
 	colored_emblem = {
-		texture = "ce_anishinaabetbird.dds"
-		color1 = "green_light"
-		instance = { scale = { 0.4 0.4 } position = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_wreath.dds"
-		color1 = "green_light"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
-	}
-}
-AGQ_monarchy = AGQ
-AGQ_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "green"
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
+		texture = "ce_indigenousturtle.dds"
 		color1 = "white"
-		color2 = "blue_light"
+		color2 = "black"
+		color3 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.47 } } 
 	}
 	colored_emblem = {
-		texture = "ce_anishinaabetbird.dds"
-		color1 = "green"
-		instance = { scale = { 0.25 0.25 } position = { 0.5 0.5 } }
+		texture = "ce_frame_circle_doted.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } } 
 	}
 }
-AGQ_theocracy_christian = {
-	pattern = "pattern_border_of_4.dds"
-	color1 = "white"
-	color2 = "green"
-	colored_emblem = {
-		texture = "ce_sun.dds"
-		color1 = "green"
-		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } } 
-	}
-	colored_emblem = {
-		texture = "ce_chi_rho.dds"
-		color1 = "yellow_dark"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
-	}
-}
-AGQ_theocracy_totemist = AGQ
-AGQ_subject = {
+legacy_AGG_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "green"
+	color1 = "blue"
+	
 	colored_emblem = {
-		texture = "ce_anishinaabetbird.dds"
-		color1 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.70 0.6 } }
+		texture = "ce_indigenousturtle.dds"
+		color1 = "blue"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.45 } } 
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle_doted.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } } 
 	}
 }
-legacy_AGG = { textured_emblem = { texture = "EU4toVic2/AGG.tga" } }
-legacy_AGG_communist = { textured_emblem = { texture = "EU4toVic2/AGG_communist.tga" } }
-legacy_AGG_fascist = { textured_emblem = { texture = "EU4toVic2/AGG_fascist.tga" } }
-legacy_AGG_monarchy = legacy_AGG
 legacy_AGG_republic = legacy_AGG
-legacy_AGU = { textured_emblem = { texture = "EU4toVic2/AGU.tga" } }
-legacy_AGU_communist = { textured_emblem = { texture = "EU4toVic2/AGU_communist.tga" } }
+legacy_AGG_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_cross_pointed.dds"
+		color1 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle_doted.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } } 
+	}
+}
+legacy_AGG_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_indigenousturtle.dds"
+		color1 = "blue"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.48 } } 
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle_doted.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.4 0.4 } position = { 0.75 0.5 } } 
+	}
+}
+legacy_AGU = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.75 } } 
+	}
+	colored_emblem = {
+		texture = "ce_dolphincircle.dds"
+		color1 = "orange"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.4 } } 
+	}
+}
+legacy_AGU_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		instance = { scale = { 1 1 } position = { 0.5 0.7 } } 
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.75 } } 
+	}
+	colored_emblem = {
+		texture = "ce_dolphincircle.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.35 } } 
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.15 0.15 } position = { 0.5 0.35 } } 
+	}
+}
 legacy_AGU_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red_light"
@@ -1823,114 +1878,80 @@ legacy_AGU_fascist = {
 		instance = { scale = { 0.5 0.5 } }
 	}
 }
-legacy_AGU_monarchy = { textured_emblem = { texture = "EU4toVic2/AGU_monarchy.tga" } }
-legacy_AGU_republic = legacy_AGU
-AHM = {
+legacy_AGU_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "blue_light"
 	
 	colored_emblem = {
-		texture = "ce_tricolor_fimbriated_large.dds"
-		color1 = "blue"
-		color2 = "orange"
-		color3 = "green"
-	}
-}
-AHM_communist = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
-	colored_emblem = {
-		texture = "ce_tricolor_fimbriated_large.dds"
-		color1 = "orange"
-		color2 = "red"
-		color3 = "green"
+		texture = "ce_anguilla_shield.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "blue_light"
+		instance = { scale = { 0.3 0.5 } position = { 0.5 0.5 } } 
 	}
 	colored_emblem = {
-		texture = "ce_hammer_hoe.dds"
+		texture = "ce_dolphincircle.dds"
 		color1 = "yellow"
-		instance = { scale = { 0.5 0.5 }} 
+		instance = { scale = { 0.42 0.42 } position = { 0.5 0.45 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crown_simple.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.15 } } 
 	}
 }
-AHM_fascist = {
+legacy_AGU_republic = legacy_AGU
+legacy_AGU_theocracy_christian = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "blue_light"
 	
 	colored_emblem = {
-		texture = "ce_tricolor_fimbriated_large.dds"
-		color1 = "blue"
-		color2 = "black"
-		color3 = "green"
-	}
-	textured_emblem = {
-		texture = "te_azadhind_tiger.dds"
-		instance = { scale = { 0.8 0.8 }} 
+		texture = "ce_cross_england_fimbriated.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "blue_light"
 	}
 }
-AHM_monarchy = AHM
-AHM_monarchy_muslim = {
+legacy_AGU_theocracy_muslim = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "blue_light"
 	
 	colored_emblem = {
-		texture = "ce_quran6113.dds"
-		color1 = "grey"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.9 } } 
-		
-	}
-}
-AHM_republic = AHM
-AHM_theocracy_hindu = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
-	colored_emblem = {
-		texture = "ce_tricolor_fimbriated_large.dds"
-		color1 = "blue"
-		color2 = "orange"
-		color3 = "blue"
+		texture = "ce_anguilla_shield.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.4 0.7 } position = { 0.5 0.5 } } 
 	}
 	colored_emblem = {
-		texture = "ce_omsymbol.dds"
-		color1 = "black"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+		texture = "ce_pineapple.dds"
+		color1 = "orange"
+		color2 = "green"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.6 } } 
 	}
-}
-AHM_theocracy_muslim = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-	
 	colored_emblem = {
-		texture = "ce_quran6113.dds"
-		color1 = "grey"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.9 } } 
-		
+		texture = "ce_crescent_star_05.dds"
+		color1 = "blue_light"
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.32 } } 
 	}
 }
-AHM_subject = {
+legacy_AGU_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 	
 	colored_emblem = {
-		texture = "ce_stripes_12.dds"
+		texture = "ce_anguilla_shield.dds"
 		color1 = "white"
+		color2 = "yellow"
+		color3 = "blue_light"
+		instance = { scale = { 0.25 0.4 } position = { 0.75 0.5 } } 
 	}
 	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "white"
-		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } } 
-	}
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "orange"
-		instance = { scale = { 0.7 0.7 } position = { 0.75 0.5 } } 
-	}
-	colored_emblem = {
-		texture = "ce_elephant_asia_decorated.dds"
-		color1 = "grey"
-		color2 = "blue"
-		color3 = "green"
-		instance = { scale = { 0.4 0.4 } position = { 0.75 0.5 } } 
+		texture = "ce_dolphincircle.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.75 0.45 } } 
 	}
 }
 legacy_AIN = { textured_emblem = { texture = "EU4toVic2/AIN.tga" } }
@@ -1972,8 +1993,9 @@ legacy_AJU = {
 	color1 = "white"
 
 	colored_emblem = {
-		texture = "ce_crescent_pale.dds"
+		texture = "ce_crescent.dds"
 		color1 = "black"
+		instance = { scale = { 0.35 0.7 } position = { 0.5 0.5 } rotation = -90}
 	}
 }
 legacy_AJU_communist = {
@@ -1994,27 +2016,156 @@ legacy_AJU_fascist = {
 		color1 = "white"
 	}
 	colored_emblem = {
-		texture = "ce_crescent_pale.dds"
+		texture = "ce_crescent.dds"
 		color1 = "black"
-		instance = { scale = { 0.5 0.5 } }
+		instance = { scale = { 0.35 0.7 } position = { 0.5 0.5 } rotation = -90}
 	}
 }
 legacy_AJU_monarchy = legacy_AJU
 legacy_AJU_republic = legacy_AJU
-legacy_AKH = { textured_emblem = { texture = "EU4toVic2/AKH.tga" } }
+legacy_AJU_theocracy_muslim = legacy_AJU
+legacy_AJU_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "black"
+		instance = { scale = { 0.35 0.7 } position = { 0.75 0.5 } rotation = -90}
+	}
+}
+legacy_AKH = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.75 } } 
+	}
+	colored_emblem = {
+		texture = "ce_ast_scimitar.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "green"
+		instance = { scale = { 0.5 0.3 } position = { 0.5 0.3 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crown_simple.dds"
+		color1 = "yellow"
+		color2 = "green"
+		color3 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.3 } } 
+	}
+}
 legacy_AKH_communist = {
 	pattern = "pattern_border_of_2.dds"
 	color1 = "white"
-	color2 = "blue"
+	color2 = "blue_light"
 
 	colored_emblem = {
 		texture = "ce_hammer_and_sickle.dds"
-		color1 = "blue"
+		color1 = "blue_light"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
 	}
 }
-legacy_AKH_fascist = { textured_emblem = { texture = "EU4toVic2/AKH_fascist.tga" } }
+legacy_AKH_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_ast_scimitar.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 }}
+	}
+}
 legacy_AKH_monarchy = legacy_AKH
-legacy_AKH_republic = { textured_emblem = { texture = "EU4toVic2/AKH_republic.tga" } }
+legacy_AKH_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_ast_scimitar.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 }}
+	}
+}
+legacy_AKH_theocracy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.75 } } 
+	}
+	colored_emblem = {
+		texture = "ce_ast_scimitar.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.6 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crescent_star_05_pale.dds"
+		color1 = "blue_light"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.3 } } 
+	}
+}
+legacy_AKH_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.75 } } 
+	}
+	colored_emblem = {
+		texture = "ce_ast_scimitar.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.6 } } 
+	}
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = "blue"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.3 } } 
+	}
+}
+legacy_AKH_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_ast_scimitar.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { scale = { 0.2 0.2 } position = { 0.75 0.6 } } 
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "green"
+		instance = { scale = { 0.3 0.2 } position = { 0.75 0.45 } } 
+	}
+	colored_emblem = {
+		texture = "ce_crown_simple.dds"
+		color1 = "yellow"
+		color2 = "green"
+		color3 = "white"
+		instance = { scale = { 0.3 0.3 } position = { 0.75 0.45 } } 
+	}
+}
 legacy_AKK = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -2029,8 +2180,35 @@ legacy_AKK = {
 		instance = { scale = { 0.3 0.3 } position = { 0.25 0.45 } rotation = 45 }
 	}
 }
-legacy_AKK_communist = { textured_emblem = { texture = "EU4toVic2/AKK_communist.tga" } }
-legacy_AKK_fascist = { textured_emblem = { texture = "EU4toVic2/AKK_fascist.tga" } }
+legacy_AKK_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	colored_emblem = {
+		texture = "ce_platform_siam.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.3 } rotation = 90 }
+		instance = { scale = { 0.5 0.5 } position = { 0.4 0.4 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.6 0.2 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.3 0.3 } rotation = 90 }
+		instance = { scale = { 0.5 0.5 } position = { 0.7 0.3 } rotation = 90 }
+		instance = { scale = { 0.3 0.3 } position = { 0.25 0.25 } rotation = 45 }
+	}
+	colored_emblem = {
+		texture = "ce_aq_hammer_and_sickle.dds"
+		instance = { scale = { 0.6 0.4 } position = { 0.5 0.75 } } 
+		color1 = "white"
+	}
+}
+legacy_AKK_fascist = {
+	pattern = "pattern_aq_fascist.dds"
+	color1 = "black_light"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_rams_head.dds"
+		color1 = "white"
+		instance = { scale = { 0.4 0.5 } position = { 0.5 0.5 } } 
+	}
+}
 legacy_AKK_monarchy = legacy_AKK
 legacy_AKK_republic = {
 	pattern = "pattern_solid.tga"
@@ -2051,6 +2229,21 @@ legacy_AKK_republic = {
 		instance = { scale = { 0.5 0.5 } position = { 0.3 0.5 } rotation = 90 }
 		instance = { scale = { 0.5 0.5 } position = { 0.7 0.5 } rotation = 90 }
 		instance = { scale = { 0.3 0.3 } position = { 0.25 0.45 } rotation = 45 }
+	}
+}
+legacy_AKK_theocracy_muslim = legacy_AKK
+legacy_AKK_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_platform_siam.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.7 0.7 } rotation = 90 }
+		instance = { scale = { 0.5 0.5 } position = { 0.6 0.8 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.8 0.6 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.7 } rotation = 90 }
+		instance = { scale = { 0.5 0.5 } position = { 0.9 0.7 } rotation = 90 }
+		instance = { scale = { 0.3 0.3 } position = { 0.45 0.65 } rotation = 45 }
 	}
 }
 legacy_AKM = { textured_emblem = { texture = "EU4toVic2/AKM.tga" } }
@@ -2262,6 +2455,99 @@ legacy_ALE = {
 		instance = { scale = { 0.15 0.15 } position = { 0.63 0.63 } }
 	}
 }
+legacy_ALE_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_bends_chief_manchester.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		instance = { scale = { 1 1.75 } position = { 0.5 0.15 } }
+	}
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_star_05_hollow.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+	}
+}
+legacy_ALE_fascist = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "black"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_shield_heater.dds"
+		color1 = "red"
+		instance = { scale = { 1 0.7 } position = { 0.5 0.45 } }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.14 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.24 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.34 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.44 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.54 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.65 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.75 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.85 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.14 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.24 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.34 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.44 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.54 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.65 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.75 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.85 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.05 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.95 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.15 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.25 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.35 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.45 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.55 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.65 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.75 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.04 0.85 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.15 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.25 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.35 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.45 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.55 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.65 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.75 } }
+		instance = { scale = { 0.15 0.15 } position = { 0.96 0.85 } }
+	}
+	colored_emblem = {
+		texture = "ce_fleur_de_lis.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.45 } }
+	}
+}
+legacy_ALE_monarchy = legacy_ALE
+legacy_ALE_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_bends_chief_manchester.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		instance = { scale = { 1 1.75 } position = { 0.5 0.15 } }
+	}
+	colored_emblem = {
+		texture = "ce_canton.dds"
+		color1 = "red"
+	}
+}
 legacy_alemannia = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -2383,99 +2669,6 @@ legacy_aleutia_republic = {
 
 	colored_emblem = {
 		texture = "ce_bend_dexter.dds"
-		color1 = "red"
-	}
-}
-legacy_ALE_communist = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_bends_chief_manchester.dds"
-		color1 = "yellow"
-		color2 = "blue"
-		instance = { scale = { 1 1.75 } position = { 0.5 0.15 } }
-	}
-	colored_emblem = {
-		texture = "ce_canton.dds"
-		color1 = "red"
-	}
-	colored_emblem = {
-		texture = "ce_star_05_hollow.dds"
-		color1 = "yellow"
-		color2 = "red"
-		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
-	}
-}
-legacy_ALE_fascist = {
-	pattern = "pattern_border_of_4.dds"
-	color1 = "black"
-	color2 = "red"
-
-	colored_emblem = {
-		texture = "ce_shield_heater.dds"
-		color1 = "red"
-		instance = { scale = { 1 0.7 } position = { 0.5 0.45 } }
-	}
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "white"
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.14 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.24 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.34 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.44 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.54 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.65 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.75 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.85 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.14 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.24 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.34 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.44 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.54 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.65 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.75 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.85 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.05 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.95 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.15 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.25 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.35 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.45 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.55 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.65 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.75 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.04 0.85 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.15 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.25 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.35 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.45 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.55 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.65 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.75 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.96 0.85 } }
-	}
-	colored_emblem = {
-		texture = "ce_fleur_de_lis.dds"
-		color1 = "yellow"
-		instance = { scale = { 0.6 0.6 } position = { 0.5 0.45 } }
-	}
-}
-legacy_ALE_monarchy = legacy_ALE
-legacy_ALE_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_bends_chief_manchester.dds"
-		color1 = "yellow"
-		color2 = "blue"
-		instance = { scale = { 1 1.75 } position = { 0.5 0.15 } }
-	}
-	colored_emblem = {
-		texture = "ce_canton.dds"
 		color1 = "red"
 	}
 }
@@ -2755,28 +2948,80 @@ legacy_ALO_republic = {
 		color2 = "yellow"
 	}
 }
-legacy_ALQ = { textured_emblem = { texture = "EU4toVic2/ALQ.tga" } }
-legacy_ALQ_communist = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
+ALQ = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "white"
+	color2 = "green"
 	colored_emblem = {
-		texture = "ce_tricolor_bend.dds"
-		color1 = "red"
-		color2 = "yellow"
-		instance = { scale = { -0.3 -0.3 } position = { 0.1 0.1 } }
-	}
-	colored_emblem = {
-		texture = "ce_bend_sinister.dds"
-		color1 = "yellow"
-		instance = { scale = { 0.2 0.2 } position = { 0 0.4 } }
-		instance = { scale = { 0.2 0.2 } position = { 0.4 0 } }
-		instance = { scale = { 0.2 0.2 } position = { 0.2 0.2 } }
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "green"
 	}
 }
-legacy_ALQ_fascist = { textured_emblem = { texture = "EU4toVic2/ALQ_fascist.tga" } }
-legacy_ALQ_monarchy = legacy_ALQ
-legacy_ALQ_republic = legacy_ALQ
+ALQ_communist = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_knife_circle.dds"
+		color1 = "green"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+ALQ_fascist = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "black"
+	color2 = "green_light"
+	colored_emblem = {
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "green_light"
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "green_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+ALQ_monarchy = AGQ
+ALQ_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "blue_light"
+	}
+	colored_emblem = {
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "green"
+		instance = { scale = { 0.25 0.25 } position = { 0.5 0.5 } }
+	}
+}
+ALQ_theocracy_christian = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "white"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "green"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+}
+ALQ_theocracy_totemist = AGQ
+ALQ_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_anishinaabetbird.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.70 0.6 } }
+	}
+}
 legacy_ALS = { textured_emblem = { texture = "EU4toVic2/ALS.tga" } }
 legacy_ALS_communist = {
 	pattern = "pattern_horizontal_split_01.tga"
@@ -3027,6 +3272,32 @@ legacy_AMD_communist = {
 	}
 }
 legacy_AMD_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "blue"
+		color2 = "black"
+		color3 = "green"
+	}
+	textured_emblem = {
+		texture = "te_azadhind_tiger.dds"
+		instance = { scale = { 0.8 0.8 }} 
+	}
+}
+legacy_AMD_monarchy = legacy_AMD
+legacy_AMD_monarchy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_quran6113.dds"
+		color1 = "grey"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.9 } } 
+	}
+}
+legacy_AMD_republic = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "green"
 	color2 = "orange_india"
@@ -3037,8 +3308,59 @@ legacy_AMD_fascist = {
 		instance = { scale = { 2 1 } position = { 0 0.5 } }
 	}
 }
-legacy_AMD_monarchy = legacy_AMD
-legacy_AMD_republic = { textured_emblem = { texture = "EU4toVic2/AMD_republic.tga" } }
+legacy_AMD_theocracy_hindu = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "blue"
+		color2 = "orange"
+		color3 = "blue"
+	}
+	colored_emblem = {
+		texture = "ce_omsymbol.dds"
+		color1 = "black"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+}
+legacy_AMD_theocracy_muslim = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_quran6113.dds"
+		color1 = "grey"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.9 } } 
+		
+	}
+}
+legacy_AMD_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_stripes_12.dds"
+		color1 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "orange"
+		instance = { scale = { 0.7 0.7 } position = { 0.75 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_elephant_asia_decorated.dds"
+		color1 = "grey"
+		color2 = "blue"
+		color3 = "green"
+		instance = { scale = { 0.4 0.4 } position = { 0.75 0.5 } } 
+	}
+}
 legacy_AMG = {
 	pattern = "pattern_checkers_01.tga"
 	color1 = "red"
