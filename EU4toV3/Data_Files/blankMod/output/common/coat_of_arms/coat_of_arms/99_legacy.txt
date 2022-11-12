@@ -2246,11 +2246,117 @@ legacy_AKK_subject = {
 		instance = { scale = { 0.3 0.3 } position = { 0.45 0.65 } rotation = 45 }
 	}
 }
-legacy_AKM = { textured_emblem = { texture = "EU4toVic2/AKM.tga" } }
-legacy_AKM_communist = { textured_emblem = { texture = "EU4toVic2/AKM_communist.tga" } }
-legacy_AKM_fascist = { textured_emblem = { texture = "EU4toVic2/AKM_fascist.tga" } }
+legacy_AKM = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	colored_emblem = {
+		texture = "ce_kiri_mon.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+legacy_AKM_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_kiri_mon.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.6 0.6 } position = { 0.8 0.7 } }
+	}
+	colored_emblem = {
+		texture = "ce_japan_communist.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { scale = { 0.45 0.45 } position = { 0.3 0.3 } }
+	}
+}
+legacy_AKM_fascist = {
+	pattern = "pattern_gironny_16_center.dds"
+	color1 = "yellow_dark"
+	color2 = "azure"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = color2
+		color2 = color2
+		color3 = color2
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = color2
+		color2 = color2
+		color3 = color2
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+	}
+	colored_emblem = {
+		texture = "ce_kiri_mon.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } } 
+	}
+}
 legacy_AKM_monarchy = legacy_AKM
 legacy_AKM_republic = legacy_AKM
+legacy_AKM_theocracy_shinto = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	colored_emblem = {
+		texture = "ce_kiri_mon.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_logograms_japan.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+legacy_AKM_theocracy_buddhist = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+
+	colored_emblem = {
+		texture = "ce_bicolor_right.dds"
+		color1 = "yellow_dark"
+	}
+	
+	colored_emblem = {
+		texture = "ce_dharmachakra.dds"
+		color1 = "azure"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } } 
+	}
+	
+	colored_emblem = {
+		texture = "ce_kiri_mon.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.5 } } 
+	}
+}
+legacy_AKM_theocracy_christian = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "yellow_dark"
+	}
+	
+	colored_emblem = {
+		texture = "ce_kiri_mon.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.4 0.4 } position = { 0.23 0.22 } } 
+		instance = { scale = { 0.4 0.4 } position = { 0.77 0.78 } } 
+	}
+}
+legacy_AKM_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	
+	colored_emblem = {
+		texture = "ce_kiri_mon.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } } 
+	}
+}
 legacy_AKT = { textured_emblem = { texture = "EU4toVic2/AKT.tga" } }
 legacy_AKT_communist = { textured_emblem = { texture = "EU4toVic2/AKT_communist.tga" } }
 legacy_AKT_fascist = {
